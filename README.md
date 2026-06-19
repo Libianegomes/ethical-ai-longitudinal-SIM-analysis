@@ -8,7 +8,7 @@ This repository contains the empirical artifacts, inspection reports, and suppor
 
 The study investigates how explicit and implicit ethical principles evolve across different versions of generative artificial intelligence systems. The analysis applies the **Semiotic Inspection Method (SIM)** to compare communicative strategies, interface cues, documented policies, interaction behavior, ethical safeguards, and potential communicability breakdowns across system versions.
 
-The repository is document-based. It contains PDF inspection reports and scenario materials; it does not include executable source code, notebooks, or datasets in tabular format.
+The repository is document-based. It contains PDF inspection reports, scenario materials, and supplementary visual evidence organized by ethical principle; it does not include executable source code, notebooks, or datasets in tabular format.
 
 ## Research Objectives
 
@@ -51,6 +51,12 @@ The SIM protocol used in the reports is organized around three sign classes and 
 | `MIS_JIS_CLAUDE_2025.pdf` | PDF | 99 | SIM inspection report for Claude in the 2025 analysis set. It analyzes the home page, help and settings areas, support materials, policy communication, personalization flow, interface controls, and dynamic responses. It highlights ethical safeguards, transparency practices, refusal explanations, safe alternatives, age-related inconsistencies, and the complete reconstructed meta-message. |
 | `MIS_JIS_GEMINI_2024.pdf` | PDF | 22 | SIM inspection report for Gemini in the 2024 analysis set. It focuses on the free version of Gemini and includes evidence from the Gemini FAQ, Privacy Center, home page, generated answer page, and dynamic prompt interactions. The report discusses privacy, accuracy warnings, age requirements, source indicators, non-diagnostic medical guidance, harmful-content refusals, and ethical questions. |
 | `Gemini_2025_JIS (3).pdf` | PDF | 72 | SIM inspection report for Gemini in the 2025 analysis set. It evaluates Gemini's communication through home-page elements, help documentation, chat management resources, connected apps, source-related affordances, settings, and dynamic interactions. The report identifies ethical safeguards, verification guidance, data-control mechanisms, accessibility and autonomy concerns, transparency limitations, and potential breakdowns involving contextualized unsafe requests. |
+| `non-maleficence/ChatGPT_Gemini_2025_nonmaleficence1.pdf` | PDF | 1 | Supplementary visual evidence for the 2025 non-maleficence analysis comparing ChatGPT and Gemini. It documents response behavior in sensitive or potentially harmful contexts, including medical caution, reputational-risk handling, and safety-oriented mediation. |
+| `non-maleficence/Chatgpt_Claude_2025_nonmaleficence2.pdf` | PDF | 1 | Supplementary visual evidence for the 2025 non-maleficence analysis comparing ChatGPT and Claude. It highlights factual-accuracy limitations, hallucination-reduction communication, uncertainty handling, and safeguards against misleading or overconfident outputs. |
+| `explicability/Claude_2025_explicability3.pdf` | PDF | 1 | Supplementary visual evidence for the 2025 explicability analysis of Claude. It presents help and support materials concerning blocking, removing, and reporting content from web search, shared conversations, and generated outputs. |
+| `explicability/ChatGPT_2025_explicability2.pdf` | PDF | 1 | Supplementary visual evidence for the 2025 explicability analysis of ChatGPT. It documents platform communication about data retention, training-data minimization, model improvement, and references to privacy and terms documentation. |
+| `explicability/Gemini_2025_explicability1.pdf` | PDF | 1 | Supplementary visual evidence for the 2025 explicability analysis of Gemini. It shows explanatory material about how Gemini works, including pre-training, post-training, supervised fine-tuning, reinforcement learning from human feedback, and model refinement. |
+| `autonomy/ChatGPT_Gemini_Claude_2025_autonomy1.pdf` | PDF | 1 | Supplementary comparative visual evidence for the 2025 autonomy analysis across ChatGPT, Gemini, and Claude. It documents privacy, personalization, data-control, retention, deletion, export, and shared-link settings that affect user agency and control. |
 
 ## Content Description by File
 
@@ -131,4 +137,27 @@ This file documents the 2025 SIM inspection of Gemini. It includes:
 - Potential breakdowns involving safety-filter circumvention through contextual framing, as well as issues related to autonomy, accessibility, and transparency.
 - Ethical questions aligned with AI4People principles and a consolidated meta-message for the 2025 version.
 
+### `non-maleficence/ChatGPT_Gemini_2025_nonmaleficence1.pdf`
+
+This supplementary evidence file supports the 2025 non-maleficence analysis by comparing ChatGPT and Gemini in ethically sensitive interaction contexts. It includes visual evidence related to safety-oriented response behavior, cautious handling of health-related or reputationally harmful requests, and the systems' communicative strategies for reducing potential harm while preserving useful guidance.
+
+### `non-maleficence/Chatgpt_Claude_2025_nonmaleficence2.pdf`
+
+This supplementary evidence file supports the 2025 non-maleficence analysis by comparing ChatGPT and Claude. It emphasizes factual-accuracy limitations, hallucination-related warnings, uncertainty communication, and the presentation of safer alternatives or mitigations when systems identify risks related to incorrect, misleading, or unsupported content.
+
+### `explicability/Claude_2025_explicability3.pdf`
+
+This supplementary evidence file supports the 2025 explicability analysis of Claude. It contains visual materials concerning content blocking, removal, and reporting mechanisms, including how users are instructed to address content from Claude web search, shared conversations, and generated outputs. It contributes evidence about institutional transparency, procedural guidance, and user-facing accountability mechanisms.
+
+### `explicability/ChatGPT_2025_explicability2.pdf`
+
+This supplementary evidence file supports the 2025 explicability analysis of ChatGPT. It documents how the platform communicates aspects of data retention, personal-information minimization, model improvement, and references to privacy and terms documentation. It is relevant to the inspection of how the system explains data-related processes to users.
+
+### `explicability/Gemini_2025_explicability1.pdf`
+
+This supplementary evidence file supports the 2025 explicability analysis of Gemini. It presents explanatory material about how Gemini works, including pre-training, post-training, supervised fine-tuning, reinforcement learning from human feedback, and model refinement. It contributes evidence about how the system communicates its development and behavioral alignment processes.
+
+### `autonomy/ChatGPT_Gemini_Claude_2025_autonomy1.pdf`
+
+This supplementary evidence file supports the 2025 autonomy analysis across ChatGPT, Gemini, and Claude. It brings together visual evidence of privacy settings, data controls, personalization options, retention choices, deletion mechanisms, export functions, and shared-link controls. It is relevant to evaluating how each system communicates user agency, consent, and control over personal data and interaction history.
 
